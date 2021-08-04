@@ -1196,7 +1196,7 @@ class PlayState extends MusicBeatState
 								ease: FlxEase.quadInOut,
 								onComplete: function(twn:FlxTween)
 								{
-									startCountdown();
+									schoolIntro(doof);
 								}
 							});
 						});
